@@ -5,7 +5,7 @@
             <!-- Logo + Deskripsi + Sosmed -->
             <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{ asset('assets/img/logo-desa.png') }}" alt="Logo Desa Cibinong" style="width: 48px; height: 48px; object-fit: contain;" class="me-2" />
+                    <img src="{{ asset('assets/img/sugihmukti.png') }}" alt="Logo Desa Cibinong" style="width: 48px; height: 48px; object-fit: contain;" class="me-2" />
                     <div>
                         <h5 class="mb-0 text-white fw-bold">Desa Cibinong Hilir</h5>
                         <small class="text-white-50">Kabupaten Cianjur</small>
