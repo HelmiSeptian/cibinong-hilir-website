@@ -85,9 +85,19 @@ p {
 
 /* ===== NAVBAR ===== */
 #mainNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #ffffff;
+    background-color: transparent;
+    /* biar transparan */
+    box-shadow: none;
+    /* hilangkan shadow */
+    transition: background-color 0.3s ease;
+    /* opsional, untuk efek smooth kalau nanti mau solid saat scroll */
 }
 
 #mainNav .navbar-toggler {

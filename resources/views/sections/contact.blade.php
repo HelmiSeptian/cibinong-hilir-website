@@ -5,7 +5,7 @@
             <!-- Logo + Deskripsi + Sosmed -->
             <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{ asset('assets/img/logo-desa.png') }}" alt="Logo Desa Cibinong" style="width: 48px; height: 48px; object-fit: contain;" class="me-2" />
+                    <img src="{{ asset('assets/img/sugihmukti.png') }}" alt="Logo Desa Cibinong" style="width: 48px; height: 48px; object-fit: contain;" class="me-2" />
                     <div>
                         <h5 class="mb-0 text-white fw-bold">Desa Cibinong Hilir</h5>
                         <small class="text-white-50">Kabupaten Cianjur</small>
@@ -27,10 +27,10 @@
                 <h6 class="text-white fw-bold text-uppercase mb-3">Jelajahi</h6>
                 <ul class="list-unstyled">
                     <li class="mb-2"><a href="#page-top" class="text-white-50 text-decoration-none">Beranda</a></li>
+                    <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Pelayanan Desa</a></li>
+                    <li class="mb-2"><a href="#portfolio" class="text-white-50 text-decoration-none">UMKM</a></li>
                     <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">Profil Desa</a></li>
-                    <li class="mb-2"><a href="#!" class="text-white-50 text-decoration-none">Infografis</a></li>
-                    <li class="mb-2"><a href="#!" class="text-white-50 text-decoration-none">Kabar Desa</a></li>
-                    <li class="mb-2"><a href="#portfolio" class="text-white-50 text-decoration-none">Produk UMKM</a></li>
+                    <li class="mb-2"><a href="#team" class="text-white-50 text-decoration-none">Perangkat Desa</a></li>
                 </ul>
             </div>
 
