@@ -607,8 +607,25 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /* ===== MASTHEAD POPPINS EXTRA BOLD ===== */
-header.masthead .masthead-heading,
-header.masthead .masthead-subheading {
+header.masthead .masthead-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+}
+
+header.masthead .masthead-subheading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+}
+
+.misi-list {
+    text-align: justify;
+    /* teks rata kanan-kiri */
+    padding-left: 25px;
+    /* jarak angka dengan tepi */
+}
+
+.misi-list li {
+    margin-bottom: 10px;
+    /* jarak antar poin */
+    line-height: 1.8;
 }
