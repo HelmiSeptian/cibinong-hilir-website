@@ -1,9 +1,12 @@
-<!-- Masthead-->
 <header class="masthead">
     <div class="container">
-        
-        <div class="masthead-heading text-uppercase">SELAMAT DATANG</div>
-        <div class="masthead-subheading">Pemerintah Desa cibinong hilir, Kabupaten Cianjur. Media Informasi Desa</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#services">Jelajahi Desa</a>
+        <h1><br></h1>
+        <h1><br></h1>
+
+        <h1><br></h1>
+
+        <a class="btn btn-primary btn-xl text-uppercase mt-3" href="#services">
+            Jelajahi Desa
+        </a>
     </div>
 </header>

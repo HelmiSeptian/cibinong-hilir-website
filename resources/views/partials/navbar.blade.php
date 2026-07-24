@@ -13,10 +13,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto align-items-lg-center py-3 py-lg-0">
                 <li class="nav-item"><a class="nav-link fw-semibold" href="#page-top" style="color: #ffffff;">Beranda</a></li>
-                <li class="nav-item"><a class="nav-link fw-semibold" href="#services" style="color: #ffffff;">Pelayanan Desa</a></li>
-                <li class="nav-item"><a class="nav-link fw-semibold" href="#portfolio" style="color: #ffffff;">UMKM</a></li>
                 <li class="nav-item"><a class="nav-link fw-semibold" href="#about" style="color: #ffffff;">Profil Desa</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#services" style="color: #ffffff;">Pelayanan Desa</a></li>
                 <li class="nav-item"><a class="nav-link fw-semibold" href="#team" style="color: #ffffff;">Perangkat Desa</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#portfolio" style="color: #ffffff;">UMKM</a></li>
             </ul>
         </div>
     </div>

@@ -21,16 +21,17 @@
                     <a href="#!" class="btn btn-dark btn-social rounded-circle" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
+            
 
             <!-- Jelajahi -->
             <div class="col-lg-2 col-md-6">
                 <h6 class="text-white fw-bold text-uppercase mb-3">Jelajahi</h6>
                 <ul class="list-unstyled">
                     <li class="mb-2"><a href="#page-top" class="text-white-50 text-decoration-none">Beranda</a></li>
-                    <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Pelayanan Desa</a></li>
-                    <li class="mb-2"><a href="#portfolio" class="text-white-50 text-decoration-none">UMKM</a></li>
                     <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">Profil Desa</a></li>
+                    <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Pelayanan Desa</a></li>
                     <li class="mb-2"><a href="#team" class="text-white-50 text-decoration-none">Perangkat Desa</a></li>
+                    <li class="mb-2"><a href="#portfolio" class="text-white-50 text-decoration-none">UMKM</a></li>
                 </ul>
             </div>
 
@@ -63,7 +64,8 @@
                 </ul>
             </div>
         </div>
-    </div>
+        <br>
+       
 
     <!-- Copyright Bar -->
     <div class="mt-4" style="background-color: #000000; padding: 1rem 0;">
@@ -73,4 +75,5 @@
             </small>
         </div>
     </div>
+    
 </footer>

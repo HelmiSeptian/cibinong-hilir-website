@@ -4,11 +4,13 @@
 
 @section('content')
     @include('sections.hero')
-    @include('sections.service')
-    @include('sections.portofolio')
     @include('sections.about')
+    @include('sections.service')
     @include('sections.team')
-    @include('sections.clients')
+    @include('sections.kegiatan')
+    @include('sections.umkm')
+    @include('sections.portofolio')
+    {{-- @include('sections.clients') --}}
     @include('sections.contact')
 @endsection
 

@@ -1,17 +1,59 @@
 @php
     $portfolioModals = [
-        ['id' => 1, 'img' => '1.jpg', 'client' => 'Threads', 'category' => 'Illustration'],
-        ['id' => 2, 'img' => '2.jpg', 'client' => 'Explore', 'category' => 'Graphic Design'],
-        ['id' => 3, 'img' => '3.jpg', 'client' => 'Finish', 'category' => 'Identity'],
-        ['id' => 4, 'img' => '4.jpg', 'client' => 'COLA COLA', 'category' => 'Branding'],
-        ['id' => 5, 'img' => '5.jpg', 'client' => 'Southwest', 'category' => 'Website Design'],
-        ['id' => 6, 'img' => '6.jpg', 'client' => 'Window', 'category' => 'Photography'],
+        [
+        'id' => 1, 
+        'img' => 'keluarga.jpg', 
+        'title' => 'Organisasi', 
+        'subtitle' => 'Organitation Structural', 
+        'desc' => 'struktur organisasi kelompok KKN Universitas Suryakencana di Desa Cibinong Hilir, menampilkan pembagian tugas dan tanggung jawab setiap anggota kelompok selama masa pengabdian.', 
+        'client' => 'Threads', 
+        'category' => 'Illustration'],
+
+        [
+        'id' => 2, 
+        'img' => '2.jpg', 
+        'title' => 'Mengajar SD', 
+        'subtitle' => 'Graphic Design', 
+        'desc' => 'Kegiatan mengajar di Sekolah Dasar sebagai bagian dari program kerja KKN, membantu proses belajar mengajar dan berbagi ilmu pengetahuan dengan siswa-siswi setempat.', 
+        'client' => 'Explore', 
+        'category' => 'Graphic Design'],
+
+        ['id' => 3, 
+        'img' => '3.jpg', 
+        'title' => 'Finish', 
+        'subtitle' => 'Identity', 
+        'desc' => 'Perancangan identitas visual kelompok KKN, termasuk logo dan elemen branding lain yang mencerminkan citra kelompok selama kegiatan di Desa Cibinong Hilir.', 
+        'client' => 'Finish', 
+        'category' => 'Identity'],
+
+        ['id' => 4, 
+        'img' => '4.jpg', 
+        'title' => 'COLA COLA', 
+        'subtitle' => 'Branding', 
+        'desc' => 'Studi kasus branding produk sebagai bahan latihan desain grafis kelompok, mempelajari elemen visual dan identitas merek yang kuat dan mudah dikenali.', 
+        'client' => 'COLA COLA', 
+        'category' => 'Branding'],
+        
+        ['id' => 5, 
+        'img' => '5.jpg', 
+        'title' => 'Southwest', 
+        'subtitle' => 'Website Design', 
+        'desc' => 'Proses perancangan dan pengembangan tampilan situs web desa, mulai dari tata letak, navigasi, hingga tampilan responsif untuk perangkat mobile dan desktop.', 
+        'client' => 'Southwest', 
+        'category' => 'Website Design'],
+
+        ['id' => 6, 
+        'img' => '6.jpg', 
+        'title' => 'Window', 
+        'subtitle' => 'Photography', 
+        'desc' => 'Dokumentasi fotografi kegiatan KKN di Desa Cibinong Hilir, menangkap momen-momen penting selama proses pengabdian masyarakat berlangsung.', 
+        'client' => 'Window', 
+        'category' => 'Photography'],
     ];
 @endphp
 
 <!-- Portfolio Modals-->
 @foreach ($portfolioModals as $modal)
-    <!-- Portfolio item {{ $modal['id'] }} modal popup-->
     <div class="portfolio-modal modal fade" id="portfolioModal{{ $modal['id'] }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -20,11 +62,10 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="{{ asset('assets/img/portfolio/' . $modal['img']) }}" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2 class="text-uppercase">{{ $modal['title'] }}</h2>
+                                <p class="item-intro text-muted">{{ $modal['subtitle'] }}</p>
+                                <img class="img-fluid d-block mx-auto" src="{{ asset('assets/img/portfolio/' . $modal['img']) }}" alt="{{ $modal['title'] }}" />
+                                <p>{{ $modal['desc'] }}</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>

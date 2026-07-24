@@ -1,101 +1,38 @@
+@php
+    $portfolioModals = [
+        ['id' => 1, 'img' => 'keluarga.jpg', 'title' => 'Struktur Organisasi', 'subtitle' => 'Organitation Structural', 'desc' => 'Susunan struktur organisasi kelompok KKN Universitas Suryakencana di Desa Cibinong Hilir, menampilkan pembagian tugas dan tanggung jawab setiap anggota kelompok selama masa pengabdian.', 'client' => 'Threads', 'category' => 'Illustration'],
+        ['id' => 2, 'img' => '2.jpg', 'title' => 'Mengajar SD', 'subtitle' => 'Graphic Design', 'desc' => 'Kegiatan mengajar di Sekolah Dasar sebagai bagian dari program kerja KKN, membantu proses belajar mengajar dan berbagi ilmu pengetahuan dengan siswa-siswi setempat.', 'client' => 'Explore', 'category' => 'Graphic Design'],
+        ['id' => 3, 'img' => '3.jpg', 'title' => 'Finish', 'subtitle' => 'Identity', 'desc' => 'Perancangan identitas visual kelompok KKN, termasuk logo dan elemen branding lain yang mencerminkan citra kelompok selama kegiatan di Desa Cibinong Hilir.', 'client' => 'Finish', 'category' => 'Identity'],
+        ['id' => 4, 'img' => '4.jpg', 'title' => 'COLA COLA', 'subtitle' => 'Branding', 'desc' => 'Studi kasus branding produk sebagai bahan latihan desain grafis kelompok, mempelajari elemen visual dan identitas merek yang kuat dan mudah dikenali.', 'client' => 'COLA COLA', 'category' => 'Branding'],
+        ['id' => 5, 'img' => '5.jpg', 'title' => 'Southwest', 'subtitle' => 'Website Design', 'desc' => 'Proses perancangan dan pengembangan tampilan situs web desa, mulai dari tata letak, navigasi, hingga tampilan responsif untuk perangkat mobile dan desktop.', 'client' => 'Southwest', 'category' => 'Website Design'],
+        ['id' => 6, 'img' => '6.jpg', 'title' => 'Window', 'subtitle' => 'Photography', 'desc' => 'Dokumentasi fotografi kegiatan KKN di Desa Cibinong Hilir, menangkap momen-momen penting selama proses pengabdian masyarakat berlangsung.', 'client' => 'Window', 'category' => 'Photography'],
+    ];
+@endphp
+
 <!-- Portfolio Grid-->
 <section class="page-section bg-light" id="portfolio">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">UMKM</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">KKN Universitas Suryakencana</h2>
+            <h3 class="section-subheading text-muted">Kelompok KKN Desa Cibinong Hilir 2026</h3>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 1-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            @foreach ($portfolioModals as $modal)
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal{{ $modal['id'] }}">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="{{ asset('assets/img/portfolio/' . $modal['img']) }}" alt="{{ $modal['title'] }}" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">{{ $modal['title'] }}</div>
+                            <div class="portfolio-caption-subheading text-muted">{{ $modal['subtitle'] }}</div>
                         </div>
-                        <img class="img-fluid" src="{{ asset('assets/img/portfolio/1.jpg') }}" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Threads</div>
-                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 2-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="{{ asset('assets/img/portfolio/2.jpg') }}" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Explore</div>
-                        <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 3-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="{{ asset('assets/img/portfolio/3.jpg') }}" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Finish</div>
-                        <div class="portfolio-caption-subheading text-muted">Identity</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                <!-- Portfolio item 4-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="{{ asset('assets/img/portfolio/4.jpg') }}" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">COLA COLA</div>
-                        <div class="portfolio-caption-subheading text-muted">Branding</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                <!-- Portfolio item 5-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="{{ asset('assets/img/portfolio/5.jpg') }}" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Southwest</div>
-                        <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <!-- Portfolio item 6-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="{{ asset('assets/img/portfolio/6.jpg') }}" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Window</div>
-                        <div class="portfolio-caption-subheading text-muted">Photography</div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>
