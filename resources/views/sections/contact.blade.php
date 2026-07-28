@@ -12,13 +12,13 @@
                     </div>
                 </div>
                 <p class="text-white-50">
-                    Website Resmi Pemerintah Desa Cibinong. Media komunikasi dan transparansi publik untuk mewujudkan desa yang mandiri dan sejahtera.
+                    Website Resmi Pemerintah Desa Cibinong. Media informasi publik untuk mewujudkan desa yang mandiri dan sejahtera.
                 </p>
                 <div class="d-flex gap-2 mt-3">
-                    <a href="#!" class="btn btn-dark btn-social rounded-circle" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#!" class="btn btn-dark btn-social rounded-circle" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#!" class="btn btn-dark btn-social rounded-circle" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    <a href="#!" class="btn btn-dark btn-social rounded-circle" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    {{-- <a href="#!" class="btn btn-dark btn-social rounded-circle" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a> --}}
+                    <a class="btn btn-dark btn-social mx-2" href="https://instagram.com/desacibinonghilir2" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    {{-- <a href="#!" class="btn btn-dark btn-social rounded-circle" aria-label="YouTube"><i class="fab fa-youtube"></i></a> --}}
+                    <a class="btn btn-dark btn-social mx-2" href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
             
@@ -31,17 +31,29 @@
                     <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">Profil Desa</a></li>
                     <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Pelayanan Desa</a></li>
                     <li class="mb-2"><a href="#team" class="text-white-50 text-decoration-none">Perangkat Desa</a></li>
-                    <li class="mb-2"><a href="#portfolio" class="text-white-50 text-decoration-none">UMKM</a></li>
+                    <li class="mb-2"><a href="#umkm-section" class="text-white-50 text-decoration-none">UMKM</a></li>
                 </ul>
             </div>
 
             <!-- Layanan -->
             <div class="col-lg-3 col-md-6">
-                <h6 class="text-white fw-bold text-uppercase mb-3">Layanan</h6>
+                <h6 class="text-white fw-bold text-uppercase mb-3">Perancang</h6>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#!" class="text-white-50 text-decoration-none">Cek Bansos</a></li>
-                    <li class="mb-2"><a href="#!" class="text-white-50 text-decoration-none">Informasi Publik</a></li>
-                    <li class="mb-2"><a href="#!" class="text-white-50 text-decoration-none">Login Admin</a></li>
+                    <li class="mb-2">
+                        <a class="text-white-50 text-decoration-none" href="https://instagram.com/rmkahfii" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i> Rmkahfii
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a class="text-white-50 text-decoration-none" href="https://instagram.com/helmiseptiam9" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i> HelmiS
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a class="text-white-50 text-decoration-none" href="https://instagram.com/ohh.zy" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i> PiqriP
+                        </a>
+                    </li>
                 </ul>
             </div>
 
