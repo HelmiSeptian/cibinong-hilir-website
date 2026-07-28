@@ -156,22 +156,24 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
         [
             'id' => 2,
             'folder' => 'kegiatan',
-            'img' => 'bansos.png',
-            'title' => 'Bantuan Sosial',
-            'subtitle' => 'Sosial',
-            'desc' => 'Kegiatan bantuan sosial yang diselenggarakan oleh pemerintah desa untuk membantu warga yang membutuhkan, termasuk pembagian sembako dan bantuan tunai kepada keluarga kurang mampu.',
+            'img' => 'bola1.jpeg',
+            'title' => 'Turnamen Sepak Bola Desa',
+            'subtitle' => 'Olahraga',
+            'desc' => 'Kegiatan Turnamen Sepak Bola Desa Cibinong Hilir merupakan ajang kompetisi olahraga yang diadakan untuk mempererat tali persaudaraan antarwarga desa. Turnamen ini melibatkan tim-tim sepak bola dari berbagai RT dan RW di desa, serta mengundang warga untuk menyaksikan pertandingan yang berlangsung selama beberapa hari.',
             'galeri_images' => [
-                'bansos1.jpg',
-                'bansos2.jpg',
-                'bansos3.jpg',
+                'bola2.jpeg',
+                'bola3.jpeg',
+                'bola4.jpeg',
+                'bola5.jpeg',
             ],
+                
             'tanggal' => '2026',
             'lokasi' => 'Warga Desa Cibinong Hilir'
         ],
         [
             'id' => 3,
             'folder' => 'kegiatan',
-            'img' => 'senampagi.jpeg',
+            'img' => 'senamm.jpg',
             'title' => 'Senam pagi',
             'subtitle' => 'Kesehatan Masyarakat',
             'desc' => 'Program senam pagi kepada warga desa mengenai olahraga dan pola hidup sehat.',
@@ -180,40 +182,60 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
             'senam1.jpeg',
             ],
             'tanggal' => '20 Januari 2026',
-            'lokasi' => 'Posyandu Desa'
+            'lokasi' => 'Situ Asem'
         ],
         [
             'id' => 4,
             'folder' => 'kegiatan',
-            'img' => '4.jpg',
-            'title' => 'keagamaan',
-            'subtitle' => 'Ekonomi Kreatif',
-            'desc' => 'Kegiatan penyuluhan kepada pelaku UMKM desa mengenai strategi pemasaran digital dan pengelolaan usaha yang lebih baik.',
-            'galeri_images' => [],
-            'tanggal' => '25 Januari 2026',
-            'lokasi' => 'Balai Desa Cibinong Hilir'
+            'img' => 'obor.png',
+            'title' => 'Pawai Obor',
+            'subtitle' => 'Sosial',
+            'desc' => 'Pawai Obor merupakan salah satu kegiatan yang diselenggarakan oleh masyarakat Desa Cibinong Hilir sebagai wujud kebersamaan, persatuan, dan semangat gotong royong. Kegiatan ini diikuti oleh berbagai lapisan masyarakat, mulai dari anak-anak, remaja, hingga orang dewasa yang berjalan bersama sambil membawa obor dengan tertib dan penuh semangat.
+
+Selain menjadi tradisi yang telah lama dilestarikan, pawai obor juga menjadi sarana untuk mempererat tali silaturahmi antarwarga serta menumbuhkan rasa cinta terhadap budaya dan nilai-nilai kebersamaan. Cahaya obor yang menyala melambangkan semangat persatuan, harapan, dan tekad masyarakat dalam membangun Desa Cibinong Hilir yang aman, rukun, dan harmonis.
+
+Melalui kegiatan ini, masyarakat tidak hanya merayakan sebuah tradisi, tetapi juga memperkuat rasa kekeluargaan, meningkatkan partisipasi warga dalam kegiatan desa, serta menciptakan suasana yang meriah dan penuh makna bagi seluruh masyarakat Desa Cibinong Hilir.',
+            'galeri_images' => [
+                'obor1.jpeg',
+                'obor2.jpeg',
+            ],
+            'tanggal' => '2026',
+            'lokasi' => 'Desa Cibinong Hilir'
         ],
         [
             'id' => 5,
             'folder' => 'kegiatan',
-            'img' => '5.jpg',
-            'title' => 'pengajian',
-            'subtitle' => 'Infrastruktur',
-            'desc' => 'Kegiatan gotong royong memperbaiki fasilitas umum desa seperti jalan dan penerangan untuk kenyamanan warga.',
-            'galeri_images' => [],
-            'tanggal' => '1 Februari 2026',
-            'lokasi' => 'Jalan Desa Cibinong Hilir'
+            'img' => 'pengajian.jpeg',
+            'title' => 'Tabligh Akbar',
+            'subtitle' => 'Keagamaan',
+            'desc' => 'Kegiatan Tabligh Akbar yang di adakan di Desa Cibinong hilir sering dilakukan dalam rangka menyambut hari hari besar umat Islam.',
+            'galeri_images' => [
+                'pengajian1.jpeg',
+                'pengajian2.jpeg',
+
+            ],
+            'tanggal' => '2026',
+            'lokasi' => 'Desa Cibinong Hilir'
         ],
         [
             'id' => 6,
             'folder' => 'kegiatan',
-            'img' => '6.jpg',
-            'title' => 'kebudayaan',
-            'subtitle' => 'Penutupan',
-            'desc' => 'Acara perpisahan dan penutupan kegiatan KKN sebagai bentuk terima kasih kepada seluruh warga Desa Cibinong Hilir.',
-            'galeri_images' => [],
-            'tanggal' => '10 Februari 2026',
-            'lokasi' => 'Balai Desa Cibinong Hilir'
+            'img' => 'karnavall.png',
+            'title' => 'Karnaval',
+            'subtitle' => 'Sosial',
+            'desc' => 'Karnaval Desa Cibinong Hilir merupakan salah satu kegiatan yang diselenggarakan untuk mempererat kebersamaan masyarakat sekaligus menampilkan keberagaman budaya, kreativitas, dan potensi yang dimiliki oleh setiap warga. Kegiatan ini diikuti oleh berbagai elemen masyarakat, mulai dari anak-anak, remaja, hingga orang dewasa yang berpartisipasi dengan menampilkan berbagai atraksi, kostum, serta kreasi unik yang mencerminkan semangat persatuan dan gotong royong.
+
+Karnaval menjadi wadah bagi masyarakat untuk mengekspresikan kreativitas sekaligus melestarikan budaya lokal melalui penampilan seni, pakaian adat, kendaraan hias, dan berbagai pertunjukan yang menarik. Suasana yang meriah dan penuh semangat menjadikan kegiatan ini sebagai hiburan sekaligus sarana mempererat tali silaturahmi antarwarga.
+
+Melalui Karnaval Desa Cibinong Hilir, diharapkan dapat menumbuhkan rasa bangga terhadap desa, meningkatkan partisipasi masyarakat dalam setiap kegiatan, serta memperkuat nilai-nilai kebersamaan, kekompakan, dan persatuan demi mewujudkan Desa Cibinong Hilir yang maju, harmonis, dan berbudaya.',
+            'galeri_images' => [
+                'karnaval.jpeg',
+                'karnaval2.jpeg',
+                'karnaval3.jpeg',
+                'karnaval4.jpeg',
+            ],
+            'tanggal' => '2026',
+            'lokasi' => 'Desa Cibinong Hilir'
         ],
 
 
@@ -222,11 +244,13 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
         [
             'id' => 7,
             'folder' => 'kegiatan',
-            'img' => '6.jpg',
-            'title' => 'karnaval',
-            'subtitle' => 'Penutupan',
+            'img' => 'pencak.png',
+            'title' => 'Pencak Silat',
+            'subtitle' => 'Kesenian Budaya',
             'desc' => 'Acara perpisahan dan penutupan kegiatan KKN sebagai bentuk terima kasih kepada seluruh warga Desa Cibinong Hilir.',
-            'galeri_images' => [],
+            'galeri_images' => [
+                'silat1.jpeg',
+            ],
             'tanggal' => '10 Februari 2026',
             'lokasi' => 'Balai Desa Cibinong Hilir'
         ],
