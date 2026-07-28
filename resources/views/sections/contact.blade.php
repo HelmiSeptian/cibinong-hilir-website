@@ -45,7 +45,8 @@
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a class="text-white-50 text-decoration-none" href="https://instagram.com/helmiseptian9" target="_blank" rel="noopener noreferrer">
+                        <a class="text-white-50 text-decoration-none" href="https://instagram.com/helmiseptian
+                        9" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-instagram"></i> HelmiS
                         </a>
                     </li>
@@ -58,23 +59,30 @@
             </div>
 
             <!-- Hubungi Kami -->
-            <div class="col-lg-3 col-md-6">
-                <h6 class="text-white fw-bold text-uppercase mb-3">Hubungi Kami</h6>
-                <ul class="list-unstyled">
-                    <li class="mb-3 d-flex">
-                        <i class="fas fa-map-marker-alt me-2 mt-1" style="color: #3a5a40;"></i>
-                        <span class="text-white-50">Cibinong Hilir, Kec. Cilaku, Kabupaten Cianjur, Jawa Barat</span>
-                    </li>
-                    <li class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-envelope me-2" style="color: #3a5a40;"></i>
-                        <span class="text-white-50">desacibinong@gmail.com</span>
-                    </li>
-                    <li class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-phone me-2" style="color: #3a5a40;"></i>
-                        <span class="text-white-50">0812-3456-7890</span>
-                    </li>
-                </ul>
-            </div>
+           <!-- Hubungi Kami -->
+<div class="col-lg-3 col-md-6">
+    <h6 class="text-white fw-bold text-uppercase mb-3">Hubungi Kami</h6>
+    <ul class="list-unstyled">
+        <li class="mb-3 d-flex">
+            <i class="fas fa-map-marker-alt me-2 mt-1" style="color: #3a5a40;"></i>
+            <a class="text-white-50 text-decoration-none" href="https://www.google.com/maps/search/?api=1&query=Desa+Cibinong+Hilir,+Kec.+Cilaku,+Kabupaten+Cianjur" target="_blank" rel="noopener noreferrer">
+                Cibinong Hilir, Kec. Cilaku, Kabupaten Cianjur, Jawa Barat
+            </a>
+        </li>
+        <li class="mb-3 d-flex align-items-center">
+            <i class="fas fa-envelope me-2" style="color: #3a5a40;"></i>
+            <a class="text-white-50 text-decoration-none" href="mailto:desacibinonghilir@gmail.com">
+                desacibinonghilir@gmail.com
+            </a>
+        </li>
+        <li class="mb-3 d-flex align-items-center">
+            <i class="fas fa-phone me-2" style="color: #3a5a40;"></i>
+            <a class="text-white-50 text-decoration-none" href="tel:+6281911515400">
+                0819-1151-5400 - Pak Acep
+            </a>
+        </li>
+    </ul>
+</div>
         </div>
         <br>
        
