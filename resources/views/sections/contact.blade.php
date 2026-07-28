@@ -45,7 +45,7 @@
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a class="text-white-50 text-decoration-none" href="https://instagram.com/helmiseptiam9" target="_blank" rel="noopener noreferrer">
+                        <a class="text-white-50 text-decoration-none" href="https://instagram.com/helmiseptian9" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-instagram"></i> HelmiS
                         </a>
                     </li>
