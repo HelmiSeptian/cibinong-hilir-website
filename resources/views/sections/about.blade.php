@@ -108,9 +108,33 @@
 </li>
 
     <!-- Penutup -->
-    <li class="timeline-inverted">
+  <!-- Misi -->
+    <li>
         <div class="timeline-image d-flex justify-content-center align-items-center bg-primary">
-            <i class="fas fa-handshake fa-3x text-white"></i>
+            <i class="fas fa-bullseye fa-4x text-white"></i>
+        </div>
+
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4 class="subheading">Jumlah Penduduk Cibinong Hilir</h4>
+            </div>
+
+            <div class="timeline-body">
+    <div style="border:2px solid #3a5a40; border-radius:1rem; padding:1.5rem 2rem; text-align:left;">
+        <div class="d-flex align-items-center mb-3">
+            <img src="{{ asset('assets/img/icons/genlaki.jpg') }}" alt="Laki-laki" style="width:36px; height:36px; margin-right:1rem;" />
+            <span class="text-muted">4662 laki-laki</span>
+        </div>
+        <div class="d-flex align-items-center mb-3">
+            <img src="{{ asset('assets/img/icons/genperempuan.jpg') }}" alt="Perempuan" style="width:36px; height:36px; margin-right:1rem;" />
+            <span class="text-muted">4522 perempuan</span>
+        </div>
+        <div class="d-flex align-items-center">
+            <span class="text-muted fw-bold">Total 9184 penduduk</span>
+        </div>
+    </div>
+</div>
+            </div>
         </div>
     </li>
 
