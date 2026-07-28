@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>@yield('title', 'Selamat Datang di Website Desa Cibinong Hilir - Desa Sukamaju')</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/favicon.ico') }}" />
+<link rel="icon" type="image/png" href="{{ asset('assets/img/sugihMukti.png') }}" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
