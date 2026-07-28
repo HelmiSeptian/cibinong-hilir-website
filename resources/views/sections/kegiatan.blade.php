@@ -171,11 +171,14 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
         [
             'id' => 3,
             'folder' => 'kegiatan',
-            'img' => '3.jpg',
-            'title' => 'Sosialisasi Kesehatan',
+            'img' => 'senampagi.jpeg',
+            'title' => 'Senam pagi',
             'subtitle' => 'Kesehatan Masyarakat',
-            'desc' => 'Program sosialisasi kesehatan kepada warga desa mengenai pola hidup sehat dan pencegahan penyakit.',
-            'galeri_images' => [],
+            'desc' => 'Program senam pagi kepada warga desa mengenai olahraga dan pola hidup sehat.',
+            'galeri_images' => [
+            'senam.jpeg',
+            'senam1.jpeg',
+            ],
             'tanggal' => '20 Januari 2026',
             'lokasi' => 'Posyandu Desa'
         ],
@@ -183,7 +186,7 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
             'id' => 4,
             'folder' => 'kegiatan',
             'img' => '4.jpg',
-            'title' => 'Penyuluhan UMKM',
+            'title' => 'keagamaan',
             'subtitle' => 'Ekonomi Kreatif',
             'desc' => 'Kegiatan penyuluhan kepada pelaku UMKM desa mengenai strategi pemasaran digital dan pengelolaan usaha yang lebih baik.',
             'galeri_images' => [],
@@ -194,7 +197,7 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
             'id' => 5,
             'folder' => 'kegiatan',
             'img' => '5.jpg',
-            'title' => 'Perbaikan Fasilitas Umum',
+            'title' => 'pengajian',
             'subtitle' => 'Infrastruktur',
             'desc' => 'Kegiatan gotong royong memperbaiki fasilitas umum desa seperti jalan dan penerangan untuk kenyamanan warga.',
             'galeri_images' => [],
@@ -205,6 +208,45 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
             'id' => 6,
             'folder' => 'kegiatan',
             'img' => '6.jpg',
+            'title' => 'kebudayaan',
+            'subtitle' => 'Penutupan',
+            'desc' => 'Acara perpisahan dan penutupan kegiatan KKN sebagai bentuk terima kasih kepada seluruh warga Desa Cibinong Hilir.',
+            'galeri_images' => [],
+            'tanggal' => '10 Februari 2026',
+            'lokasi' => 'Balai Desa Cibinong Hilir'
+        ],
+
+
+
+
+        [
+            'id' => 7,
+            'folder' => 'kegiatan',
+            'img' => '6.jpg',
+            'title' => 'karnaval',
+            'subtitle' => 'Penutupan',
+            'desc' => 'Acara perpisahan dan penutupan kegiatan KKN sebagai bentuk terima kasih kepada seluruh warga Desa Cibinong Hilir.',
+            'galeri_images' => [],
+            'tanggal' => '10 Februari 2026',
+            'lokasi' => 'Balai Desa Cibinong Hilir'
+        ],
+
+        [
+            'id' => 8,
+            'folder' => 'kegiatan',
+            'img' => '6.jpg',
+            'title' => 'Pawai obor',
+            'subtitle' => 'Penutupan',
+            'desc' => 'Acara perpisahan dan penutupan kegiatan KKN sebagai bentuk terima kasih kepada seluruh warga Desa Cibinong Hilir.',
+            'galeri_images' => [],
+            'tanggal' => '10 Februari 2026',
+            'lokasi' => 'Balai Desa Cibinong Hilir'
+        ],
+
+        [
+            'id' => 9,
+            'folder' => 'kegiatan',
+            'img' => '6.jpg',
             'title' => 'Perpisahan KKN',
             'subtitle' => 'Penutupan',
             'desc' => 'Acara perpisahan dan penutupan kegiatan KKN sebagai bentuk terima kasih kepada seluruh warga Desa Cibinong Hilir.',
@@ -212,6 +254,8 @@ Berbagai kegiatan, seperti upacara bendera, perlombaan tradisional, pentas seni 
             'tanggal' => '10 Februari 2026',
             'lokasi' => 'Balai Desa Cibinong Hilir'
         ],
+
+        
     ];
 @endphp
 

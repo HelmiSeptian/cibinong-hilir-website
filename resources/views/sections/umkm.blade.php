@@ -158,11 +158,16 @@
         [
             'id' => 2,
             'folder' => 'umkm',
-            'img' => '2.jpg',
-            'title' => 'Kerajinan Anyaman Bambu',
+            'img' => 'AbonRianati.png',
+            'title' => 'Abon Ayam dan Aneka Kue Kering',
             'subtitle' => 'Kerajinan Tangan',
             'desc' => 'Usaha kerajinan tangan berbahan dasar bambu yang menghasilkan berbagai produk seperti keranjang, tampah, dan hiasan rumah dengan sentuhan seni tradisional.',
-            'produk_images' => [],
+            'produk_images' => [
+            'AbonRianati2.jpeg',
+            'AbonRianati3.jpeg',
+            'AbonRianati4.jpeg',
+            'AbonRianati5.jpeg',
+            ],
             'pemilik' => 'Bapak Rudi',
             'kontak' => '0813-4567-8901'
         ],
