@@ -159,7 +159,7 @@ Melalui pelaksanaan KKN ini, diharapkan tercipta hubungan yang baik antara mahas
             'galeri_images' => [
                 ['img' => 'awa.JPG', 'nama' => 'Ahwa'],
                 ['img' => 'bew.JPG', 'nama' => 'Rifqi'],
-                ['img' => 'helmi.JPG', 'nama' => 'HelmiS'],
+                ['img' => 'helmi.JPG', 'nama' => 'Helmi'],
                 ['img' => 'farid.JPG', 'nama' => 'Farid'],
                 ['img' => 'intan.JPG', 'nama' => 'Intan'],
                 ['img' => 'oji.JPG', 'nama' => 'Piqri'],
