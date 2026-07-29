@@ -156,7 +156,7 @@
 Beragam program telah dilaksanakan, meliputi pengembangan website profil desa, kegiatan pendidikan di sekolah dasar, sosialisasi bahaya narkotika kepada pelajar, kegiatan Jumat Bersih, pendampingan UMKM, serta partisipasi dalam berbagai kegiatan kemasyarakatan seperti pawai obor, karnaval, dan kegiatan olahraga desa. Seluruh program disusun berdasarkan kebutuhan masyarakat serta dilaksanakan dengan mengedepankan semangat gotong royong, kolaborasi, dan pemberdayaan.
 
 Melalui pelaksanaan KKN ini, diharapkan tercipta hubungan yang baik antara mahasiswa dan masyarakat, meningkatnya partisipasi warga dalam pembangunan desa, serta terwujudnya inovasi yang dapat memberikan dampak positif dan berkelanjutan bagi kemajuan Desa Cibinong Hilir. Selain memberikan manfaat bagi masyarakat, kegiatan ini juga menjadi sarana bagi mahasiswa untuk mengembangkan kemampuan kepemimpinan, komunikasi, kerja sama tim, serta penerapan ilmu pengetahuan secara langsung di tengah kehidupan bermasyarakat.',
-            'galeri_images' => [
+            'galeri_images' => [ 
                 ['img' => 'awa.JPG', 'nama' => 'Ahwa'],
                 ['img' => 'bew.JPG', 'nama' => 'Rifqi'],
                 ['img' => 'helmi.JPG', 'nama' => 'HelmiS'],
