@@ -168,7 +168,7 @@
             'abon1.jpeg',
             ],
             'pemilik' => 'Ibu iah',
-            'kontak' => '-'
+            'kontak' => '+62 877-2031-9492 '
         ],
         [
             'id' => 3,
@@ -184,7 +184,7 @@
             'kicimpring1.jpeg',
             ],
             'pemilik' => 'Ibu iah',
-            'kontak' => '-'
+            'kontak' => '+62 877-2031-9492 '
         ],
 
     ];

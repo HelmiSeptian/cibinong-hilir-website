@@ -11,6 +11,7 @@
     @include('sections.kegiatan')
     @include('sections.umkm')
     @include('sections.portofolio')
+    @include('sections.video_kkn')
 
     {{-- @include('sections.clients') --}}
     @include('sections.contact')
