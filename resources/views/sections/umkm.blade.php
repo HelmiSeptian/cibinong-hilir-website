@@ -163,7 +163,10 @@
             'title' => 'Abon Maiah',
             'subtitle' => 'Makanan',
             'desc' => 'Abon Mak Iah merupakan usaha rumahan yang bergerak di bidang produksi makanan olahan berupa abon ayam yang berlokasi di Desa Cibinong Hilir, Kecamatan Cilaku, Kabupaten Cianjur. Usaha ini menghadirkan abon ayam dengan cita rasa khas yang gurih, lezat, dan dibuat menggunakan bahan-bahan berkualitas. Seluruh proses produksi dilakukan secara higienis serta memperhatikan standar kebersihan sehingga menghasilkan produk yang aman dan berkualitas untuk dikonsumsi.',
-            'produk_images' => [],
+            'produk_images' => [
+            'abon.jpeg',
+            'abon1.jpeg',
+            ],
             'pemilik' => 'Ibu iah',
             'kontak' => '-'
         ],
@@ -173,10 +176,15 @@
             'img' => 'kicimpring.png',
             'title' => 'Kicimpring',
             'subtitle' => 'Makanan',
-            'desc' => 'Kicipring dan Rengginang merupakan usaha rumahan yang bergerak di bidang produksi makanan ringan tradisional yang berlokasi di Kampung Cidadap, Desa Cibinong Hilir, Kecamatan Cilaku, Kabupaten Cianjur. Usaha ini memproduksi berbagai olahan camilan khas Indonesia, seperti kicipring dan rengginang, yang dibuat menggunakan bahan-bahan berkualitas serta diolah secara higienis untuk menghasilkan produk yang renyah, gurih, dan memiliki cita rasa khas.',
-            'produk_images' => [],
-            'pemilik' => 'Ibu Dewi',
-            'kontak' => '0815-6789-0123'
+            'desc' => 'Kicipring dan Rengginang merupakan usaha rumahan yang bergerak di bidang produksi makanan ringan tradisional yang berlokasi di Desa Cibinong Hilir, Kecamatan Cilaku, Kabupaten Cianjur. Usaha ini memproduksi berbagai olahan camilan khas Indonesia, seperti kicipring dan rengginang, yang dibuat menggunakan bahan-bahan berkualitas serta diolah secara higienis untuk menghasilkan produk yang renyah, gurih, dan memiliki cita rasa khas.',
+            'produk_images' => [
+            'rengginang1.jpeg',
+            'rengginang2.jpeg',
+            'rengginang3.jpeg',
+            'kicimpring1.jpeg',
+            ],
+            'pemilik' => 'Ibu iah',
+            'kontak' => '-'
         ],
 
     ];
