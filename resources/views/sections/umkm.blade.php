@@ -155,66 +155,38 @@
             'pemilik' => 'Bapak Jenal Mutakin',
             'kontak' => '0877-1498-4222',
         ],
+
         [
             'id' => 2,
             'folder' => 'umkm',
-            'img' => 'AbonRianati.png',
-            'title' => 'Abon Ayam dan Aneka Kue Kering',
-            'subtitle' => 'Kerajinan Tangan',
-            'desc' => 'Usaha kerajinan tangan berbahan dasar bambu yang menghasilkan berbagai produk seperti keranjang, tampah, dan hiasan rumah dengan sentuhan seni tradisional.',
+            'img' => 'abonmaiah.png',
+            'title' => 'Abon Maiah',
+            'subtitle' => 'Makanan',
+            'desc' => 'Abon Mak Iah merupakan usaha rumahan yang bergerak di bidang produksi makanan olahan berupa abon ayam yang berlokasi di Desa Cibinong Hilir, Kecamatan Cilaku, Kabupaten Cianjur. Usaha ini menghadirkan abon ayam dengan cita rasa khas yang gurih, lezat, dan dibuat menggunakan bahan-bahan berkualitas. Seluruh proses produksi dilakukan secara higienis serta memperhatikan standar kebersihan sehingga menghasilkan produk yang aman dan berkualitas untuk dikonsumsi.',
             'produk_images' => [
-            'AbonRianati2.jpeg',
-            'AbonRianati3.jpeg',
-            'AbonRianati4.jpeg',
-            'AbonRianati5.jpeg',
+            'abon.jpeg',
+            'abon1.jpeg',
             ],
-            'pemilik' => 'Bapak Rudi',
-            'kontak' => '0813-4567-8901'
+            'pemilik' => 'Ibu iah',
+            'kontak' => '+62 877-2031-9492 '
         ],
         [
             'id' => 3,
             'folder' => 'umkm',
-            'img' => '3.jpg',
-            'title' => 'Kopi Robusta Cibinong',
-            'subtitle' => 'Minuman',
-            'desc' => 'Usaha pengolahan biji kopi robusta lokal menjadi kopi bubuk siap seduh dengan cita rasa khas hasil racikan turun-temurun warga desa.',
-            'produk_images' => [],
-            'pemilik' => 'Bapak Asep',
-            'kontak' => '0814-5678-9012'
+            'img' => 'kicimpring.png',
+            'title' => 'Kicimpring',
+            'subtitle' => 'Makanan',
+            'desc' => 'Kicipring dan Rengginang merupakan usaha rumahan yang bergerak di bidang produksi makanan ringan tradisional yang berlokasi di Desa Cibinong Hilir, Kecamatan Cilaku, Kabupaten Cianjur. Usaha ini memproduksi berbagai olahan camilan khas Indonesia, seperti kicipring dan rengginang, yang dibuat menggunakan bahan-bahan berkualitas serta diolah secara higienis untuk menghasilkan produk yang renyah, gurih, dan memiliki cita rasa khas.',
+            'produk_images' => [
+            'rengginang1.jpeg',
+            'rengginang2.jpeg',
+            'rengginang3.jpeg',
+            'kicimpring1.jpeg',
+            ],
+            'pemilik' => 'Ibu iah',
+            'kontak' => '+62 877-2031-9492 '
         ],
-        [
-            'id' => 4,
-            'folder' => 'umkm',
-            'img' => '4.jpg',
-            'title' => 'Batik Tulis Cibinong',
-            'subtitle' => 'Fashion',
-            'desc' => 'Usaha batik tulis khas desa dengan motif yang terinspirasi dari kekayaan alam dan budaya lokal, dikerjakan langsung oleh pengrajin setempat.',
-            'produk_images' => [],
-            'pemilik' => 'Ibu Dewi',
-            'kontak' => '0815-6789-0123'
-        ],
-        [
-            'id' => 5,
-            'folder' => 'umkm',
-            'img' => '5.jpg',
-            'title' => 'Madu Hutan Asli',
-            'subtitle' => 'Kesehatan',
-            'desc' => 'Usaha budidaya dan pengolahan madu hutan asli tanpa campuran bahan tambahan, dipanen langsung dari perkebunan warga sekitar desa.',
-            'produk_images' => [],
-            'pemilik' => 'Bapak Hendra',
-            'kontak' => '0816-7890-1234'
-        ],
-        [
-            'id' => 6,
-            'folder' => 'umkm',
-            'img' => '6.jpg',
-            'title' => 'Konveksi Pakaian Desa',
-            'subtitle' => 'Tekstil',
-            'desc' => 'Usaha konveksi rumahan yang memproduksi pakaian jadi seperti kaos, seragam, dan pakaian custom untuk kebutuhan warga dan instansi sekitar.',
-            'produk_images' => [],
-            'pemilik' => 'Ibu Yuli',
-            'kontak' => '0817-8901-2345'
-        ],
+
     ];
 @endphp
 
