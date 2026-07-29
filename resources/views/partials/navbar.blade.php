@@ -18,7 +18,7 @@
                 <li class="nav-item"><a class="nav-link fw-semibold" href="#team" style="color: #ffffff;">Perangkat Desa</a></li>
                 <li class="nav-item"><a class="nav-link fw-semibold" href="#kegiatan-section" style="color: #ffffff;">Kegiatan Desa</a></li>
                 <li class="nav-item"><a class="nav-link fw-semibold" href="#umkm-section" style="color: #ffffff;">UMKM</a></li>
-                <li class="nav-item"><a class="nav-link fw-semibold" href="#portfolio" style="color: #ffffff;">Kegiatan KKN</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#kegiatan-kkn-section" style="color: #ffffff;">Kegiatan KKN</a></li>
             </ul>
         </div>
     </div>

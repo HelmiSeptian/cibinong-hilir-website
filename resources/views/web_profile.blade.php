@@ -10,13 +10,10 @@
     @include('sections.call_centre')
     @include('sections.kegiatan')
     @include('sections.umkm')
-    @include('sections.portofolio')
+    @include('sections.kegiatankkn')
     @include('sections.video_kkn')
 
     {{-- @include('sections.clients') --}}
     @include('sections.contact')
 @endsection
 
-@section('modals')
-    @include('sections.portfolio-modals')
-@endsection
